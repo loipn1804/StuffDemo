@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <loipn.stuffdemo.java.PinEntryEditText
+        android:id="@+id/txt_pin_entry"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#efefef"
+        android:cursorVisible="true"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textIsSelectable="true"
+        android:textSize="24sp" />
+</RelativeLayout>
